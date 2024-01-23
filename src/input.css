@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 16px;
+}
+
+ul {
+    list-style: disc;
+    font-family: 'Outfit', sans-serif;
+}
+
+.list1 {
+    color: hsl(332, 51%, 32%);
+    padding-left: 1rem;
+}
+
+.list2 {
+    color: hsl(14, 45%, 36%);
+    padding-left: 1rem;
+}
+
+.list3 {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+
+}
